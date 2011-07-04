@@ -1,4 +1,6 @@
 Hammr::Application.routes.draw do
+  get "protected_content/index"
+
   get "home/index"
 
   devise_for :users
