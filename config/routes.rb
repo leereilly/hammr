@@ -3,8 +3,12 @@ Hammr::Application.routes.draw do
 
   get "home/index"
 
-  devise_for :users
-  devise_for :users, :controllers => { :registrations => "users/registrations" }
+  as :user do
+      match '/user/confirmation' => 'confirmations#update', :via => :put, :as=> :update_user_confirmation
+  end
+  
+  devise_for :users, :controllers => { :confirmations => "confirmations" }
+
   root :to => "home#index"
   # The priority is based upon order of creation:
   # first created -> highest priority.
