@@ -1,8 +1,11 @@
 require 'test_helper'
 
 class JobsTest < ActiveSupport::TestCase
-  # Replace this with your real tests.
-  test "the truth" do
-    assert true
+  test "should have a title field" do
+    assert false
+  end
+  
+  test "should have a company field" do
+  
   end
 end

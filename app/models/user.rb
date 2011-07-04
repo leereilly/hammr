@@ -7,6 +7,8 @@ class User < ActiveRecord::Base
   # Setup accessible (or protected) attributes for your model
   attr_accessible :email, :password, :password_confirmation, :remember_me
   
+  has_many :jobs
+  
   # new function to set the password without knowing the current password used in our confirmation controller. 
   def attempt_set_password(params)
     p = {}
