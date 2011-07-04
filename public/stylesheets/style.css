@@ -1,0 +1,12 @@
+body { 
+  color: #efefef;
+  background-color: #aacbce; 
+}
+
+div#logo {
+  float: left;
+}
+
+div#user_nav { 
+  float: right; font-size: 0.9em; 
+}
