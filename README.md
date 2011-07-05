@@ -1,14 +1,19 @@
-= Installation
+Installation
+------------
 
-* Download the branch master via [https://github.com/leereilly/hammr(]https://github.com/leereilly/hammr)
+* Download the branch master via [https://github.com/leereilly/hammr](https://github.com/leereilly/hammr)
+
 
     git clone git@github.com:leereilly/hammr.git
     
 * Install the required gems
 
+
    bundle install
    
 * Create a file config/database.yml e.g.
+
+
     development:
       adapter: sqlite3
       database: db/development.sqlite3
@@ -30,4 +35,3 @@
 * Start the server (default to development environment on port 3000)
 
    rails server      
-   
