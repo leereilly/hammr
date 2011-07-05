@@ -35,7 +35,7 @@ Run the test suite to make sure everything's working
 
     rake test      
       
-Start the server (default to development environment on port 3000)
+Start the server (default to `development` environment on port `3000`)
 
     rails server   
     
