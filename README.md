@@ -8,7 +8,7 @@ Download the branch master via [https://github.com/leereilly/hammr](https://gith
     
 Install the required gems
 
-   bundle install
+    bundle install
    
 Create a file config/database.yml e.g.
 
