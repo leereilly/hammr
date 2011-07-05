@@ -47,5 +47,4 @@ Contribute
 Bugs / Known Issues
 -------------------   
 * **DO NOT USE IN PRODUCTION!**
-  * This application isn't fully tested yet.
 ![Bugs](http://i.imgur.com/K8vsw.gif "Bugs")
