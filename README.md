@@ -1,3 +1,4 @@
+![Bugs](https://github.com/leereilly/hammr/raw/master/public/images/hammr-logo-small.png "Bugs")
 Installation
 ------------
 
@@ -30,6 +31,10 @@ Create a file config/database.yml e.g.
       pool: 5
       timeout: 5000
       
-* Start the server (default to development environment on port 3000)
+Start the server (default to development environment on port 3000)
 
-   rails server      
+   rails server   
+   
+Bugs / Known Issues
+-------------------   
+![Bugs](http://i.imgur.com/K8vsw.gif "Bugs")
