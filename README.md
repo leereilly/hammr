@@ -53,6 +53,6 @@ Bugs / Known Issues
 -------------------   
 
 * **DO NOT USE IN PRODUCTION!**
-* Functional test coverage not as good as unit test coverage :cop:
+* Functional test coverage not as good as unit test coverage.
 
 ![Bugs](http://i.imgur.com/K8vsw.gif "Bugs")
