@@ -42,7 +42,12 @@ Start the server (defaults to `development` environment on port `3000`)
 Contribute
 ----------
 * Fork
-* Pull    
+* Pull
+
+Questions / Problems?
+---------------------
+Please create an issue @ [https://github.com/leereilly/hammr/issues](https://github.com/leereilly/hammr/issues).
+    
    
 Bugs / Known Issues
 -------------------   
