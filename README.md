@@ -33,7 +33,7 @@ Create a file config/database.yml e.g.
       
 Start the server (default to development environment on port 3000)
 
-   rails server   
+    rails server   
    
 Bugs / Known Issues
 -------------------   
