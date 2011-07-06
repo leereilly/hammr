@@ -4,7 +4,6 @@ tmp/*
 *.sqlite3 
 
 *~
-*.lock
 *.DS_Store
 *.swp
 *.out
