@@ -7,26 +7,32 @@
   <%= csrf_meta_tag %>
 </head>
 <body>
-<a href="/"><img src="/images/hammr-logo-small.png" style="float:left;"/></a>
+<div class="container">
+  
+  <a href="/"><img src="/images/hammr-logo-small.png" style="float:left;"/></a>
 
-<div id="user_nav">
-  <% if user_signed_in? %>
-    <ul class="button-group">
-      <li><%= link_to "Account: #{current_user.email}", '#', :class => "button pill" %></li>
-      <li><%= link_to "Sign out", destroy_user_session_path, :method => :delete, :class => "button primary pill" %></li>
-    </ul>
-  <% else %>
-    <ul class="button-group">
-      <li><%= link_to "Sign up", new_user_registration_path, :class => "button primary pill" %></li>
-      <li><%= link_to "Sign in", new_user_session_path, :class => "button pill" %></li>
-    </ul>  
-  <% end %>
-</div>
-<br clear="all" />
-<p class="notice"><%= notice %></p>
-<p class="alert"><%= alert %></p>
+  <div id="user_nav">
+    <% if user_signed_in? %>
+      <ul class="button-group">
+        <li><%= link_to "Account: #{current_user.email}", '#', :class => "button pill" %></li>
+        <li><%= link_to "Sign out", destroy_user_session_path, :method => :delete, :class => "button primary pill" %></li>
+      </ul>
+    <% else %>
+      <ul class="button-group">
+        <li><%= link_to "Sign up", new_user_registration_path, :class => "button primary pill" %></li>
+        <li><%= link_to "Sign in", new_user_session_path, :class => "button pill" %></li>
+      </ul>  
+    <% end %>
+  </div>
+  <br clear="all" />
+  <p class="notice"><%= notice %></p>
+  <p class="alert"><%= alert %></p>
+  
+  <div class="content">
 
 <%= yield %>
 
+</div>
+</div>
 </body>
 </html>

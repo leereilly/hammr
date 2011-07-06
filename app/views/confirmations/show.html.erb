@@ -1,6 +1,6 @@
-<h2>Account Activation</h2>
-
+<div class="dialog"> 
 <%= form_for resource, :as => resource_name, :url => update_user_confirmation_path, :html => {:method => 'put'}, :id => 'activation-form' do |f| %>
+<h2>Account Activation</h2>
   <%= devise_error_messages! %>
   <fieldset>
     <legend>Account Activation<% if resource.email %> for <%= resource.email %><% end %></legend>
@@ -19,3 +19,4 @@
   <p><%= f.submit "Activate" %></p>
   </fieldset>
 <% end %>
+</div>
