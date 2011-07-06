@@ -8,6 +8,13 @@ Demo
 ----
 There's a demo setup @ http://hammr.heroku.com. Heroku doesn't offer a free outgoing mail service, so until I fix that you can't past the signup stage. Clone it and serve it locally with no problems.
 
+Kudos / Confessions
+-------------------
+* I ripped off Yammer's logo - **COME AT ME YAMMER ATTORNEYS**!
+* I ripped off some of Heroku's CSS for forms (I'll remove that soon)
+* [GitHub buttons CSS](https://github.com/cavneb/css3-github-buttons)
+* [Devise](https://github.com/plataformatec/devise)
+
 Installation
 ------------
 
@@ -56,7 +63,6 @@ Contribute
 Questions / Problems?
 ---------------------
 Please create an issue @ [https://github.com/leereilly/hammr/issues](https://github.com/leereilly/hammr/issues).
-    
    
 Bugs / Known Issues
 -------------------   
