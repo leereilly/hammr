@@ -14,6 +14,8 @@ Kudos / Confessions
 * I ripped off some of Heroku's CSS for forms (I'll remove that soon)
 * [GitHub buttons CSS](https://github.com/cavneb/css3-github-buttons)
 * [Devise](https://github.com/plataformatec/devise)
+* [Machinist](https://github.com/bigfix/machinist)
+* [Faker](http://rubydoc.info/github/stympy/faker/master/frames)
 
 Installation
 ------------
