@@ -68,7 +68,7 @@ Bugs / Known Issues
 -------------------   
 
 * **DO NOT USE IN PRODUCTION!**
-* Functional/unit tests aren't quite there yet; setting up and configuring Devise with Rails 3 was a learning experience.
+* Functional tests aren't there yet; unit tests are there with machinist/faker. Setting up and configuring Devise with Rails 3 was a learning experience.
 * Factory Girl and Faker test data planned.
 
 ![Bugs](http://i.imgur.com/K8vsw.gif "Bugs")
