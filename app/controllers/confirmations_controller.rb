@@ -7,14 +7,11 @@ class ConfirmationsController < Devise::PasswordsController
         @confirmable.attempt_set_password(params[:user])
         if @confirmable.valid?
           # TODO: kludge / code smell
-          puts "********* #{params[:user][:first_name]}"
-          puts params.inspect
           @user = User.find(@confirmable.id)
           @user.first_name = params[:user][:first_name]
           @user.last_name = params[:user][:last_name]
           @user.location = params[:user][:location]
           @user.date_of_birth = params[:user][:date_of_birth]
-          puts "Trying to save user #{@user.inspect}"
           @user.save!
           do_confirm
         else
