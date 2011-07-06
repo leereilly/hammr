@@ -1,4 +1,9 @@
 ![Hammr](https://github.com/leereilly/hammr/raw/master/public/images/hammr-logo-small.png "Hammr")
+
+Demo
+----
+There's a demo setup @ http://hammr.heroku.com. Right now, the mailer's broken 'cos Heroku don't offer a free outgoing mail service.
+
 Installation
 ------------
 
