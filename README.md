@@ -1,8 +1,12 @@
 ![Hammr](https://github.com/leereilly/hammr/raw/master/public/images/hammr-logo-small.png "Hammr")
 
+About
+-----
+Hammr is a simple Rails-based user authentication app that's built on top of [Devise](https://github.com/plataformatec/devise). It's an exercise is familiarizing myself with Devise; nothing more.
+
 Demo
 ----
-There's a demo setup @ http://hammr.heroku.com. Right now, the mailer's broken 'cos Heroku don't offer a free outgoing mail service.
+There's a demo setup @ http://hammr.heroku.com. Heroku doesn't offer a free outgoing mail service, so until I fix that you can't past the signup stage. Clone it and serve it locally with no problems.
 
 Installation
 ------------
@@ -58,6 +62,7 @@ Bugs / Known Issues
 -------------------   
 
 * **DO NOT USE IN PRODUCTION!**
-* Functional test coverage not as good as unit test coverage... yet.
+* Functional/unit tests aren't quite there yet; setting up and configuring Devise with Rails 3 was a learning experience.
+* Factory Girl and Faker test data planned.
 
 ![Bugs](http://i.imgur.com/K8vsw.gif "Bugs")
