@@ -1,4 +1,4 @@
-![Bugs](https://github.com/leereilly/hammr/raw/master/public/images/hammr-logo-small.png "Bugs")
+![Hammr](https://github.com/leereilly/hammr/raw/master/public/images/hammr-logo-small.png "Hammr")
 Installation
 ------------
 
